@@ -1,0 +1,85 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card{
+    background: $primary-color2;
+    display: flex;
+    flex-direction: row;
+    margin: 15rem;
+    border-radius: 1.2rem;
+
+    .main-text{
+      padding: 5rem;
+      
+      .text{
+        padding: 0.5rem 0;
+
+        .title{
+          font-size: 4rem;
+          font-weight: 700;
+          color: $secundary-color;
+
+          span{
+            color: $primary-color3;
+          }
+        }
+
+        .paragraph{
+          font-size: 1.8rem;
+          color: $secundary-color2;
+          padding: 3rem 0;
+          line-height: 3rem;
+        }
+      }
+
+      .list{
+        display: flex;
+
+        .item{
+          padding:2rem 8rem 0 0;
+
+          .list-a{
+            font-size: 2.5rem;
+          }
+
+          .list-b{
+            text-transform: uppercase;
+            color: $secundary-color3;
+            letter-spacing: 2px;
+            margin-top: 0.4rem;
+          }
+        }
+      }
+    }
+
+    .img-bg{
+      position: relative;
+      background: $primary-color3;
+      border-top-right-radius: 1.2rem;
+      border-bottom-right-radius: 1.2rem;
+
+      img{
+        border-top-right-radius: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+        mix-blend-mode: multiply;
+        height: 100%;
+      }
+
+      .pink{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $primary-color3;
+        opacity: 0.2;
+        border-top-right-radius: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+      }
+    }
+  }
+}

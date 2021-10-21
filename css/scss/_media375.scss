@@ -1,0 +1,80 @@
+@media screen and (max-width: 375px){
+  .container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .card{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem;
+
+        .text{
+          padding: 0rem;
+          text-align: center;
+
+          .title{
+            font-size: 2.2rem;
+            padding: 0;
+          }
+
+          .paragraph{
+            font-size: 1.3rem;
+            padding: 3rem 0;
+            line-height: 2.5rem;
+          }
+        }
+
+        .list{
+          display: flex;
+          flex-direction: row;
+
+          .item{
+
+            .list-a{
+              font-size: 1.8rem;
+            }
+  
+            .list-b{
+              
+            }
+          }
+        }
+      }
+
+      .img-bg{
+        border-top-right-radius: 1.2rem;
+        border-top-left-radius: 1.2rem;
+        border-bottom-right-radius: 0;
+
+        .img-dk{
+          display: none;
+        }
+
+        .img-mb{
+          display: block;
+          width: 100%;
+          border-top-right-radius: 1.2rem;
+          border-top-left-radius: 1.2rem;
+          border-bottom-right-radius: 0;
+        }
+
+        .pink{
+          border-top-right-radius: 1.2rem;
+          border-top-left-radius: 1.2rem;
+          border-bottom-right-radius: 0;
+        }
+      }
+    }
+  }
+}

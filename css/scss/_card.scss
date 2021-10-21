@@ -14,6 +14,10 @@
 
     .main-text{
       padding: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
       
       .text{
         padding: 0.5rem 0;
@@ -68,6 +72,7 @@
 
       .img-dk{
         display: block;
+        width: 540px;
       }
 
       img{
